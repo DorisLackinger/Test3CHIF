@@ -20,8 +20,12 @@ namespace UnitTestProject1
             Date d = new Date();
             Assert.AreEqual(1600, d.Year);
         }
-        [TestMethod,
-            ExpectedException(typeof(ArgumentOutOfRangeException))]
+        [TestMethod, ExpectedException(typeof(ArgumentOutOfRangeException))]
+        public void TestKonstruktor()
+        {
+            Date d = new Date(2015, 2, 29);
+        }
+
         public void TestMethod2()
         {
             Date d = new Date();
