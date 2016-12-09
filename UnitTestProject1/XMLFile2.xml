@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Test>
+  <TestLeapYear>
+    <Year>
+      1992
+    </Year>
+    <Expected>
+      true
+    </Expected>
+  </TestLeapYear>
+  <TestLeapYear>
+    <Year>
+      1994
+    </Year>
+    <Expected>
+      false
+    </Expected>
+  </TestLeapYear>
+  <TestLeapYear>
+    <Year>
+      1996
+    </Year>
+    <Expected>
+      true
+    </Expected>
+  </TestLeapYear>
+  <TestLeapYear>
+    <Year>
+      1996
+    </Year>
+    <Expected>
+      true
+    </Expected>
+  </TestLeapYear>
+</Test>
