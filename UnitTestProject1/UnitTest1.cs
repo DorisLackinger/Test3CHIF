@@ -33,6 +33,7 @@ namespace UnitTestProject1
             Assert.AreEqual(d.Year, 2016);
             Assert.AreEqual(d.Month, 2);
             Assert.AreEqual(d.Day, 29);
+            Assert.AreEqual(d.DayOfYear, 60);
 
         }
 
@@ -47,7 +48,7 @@ namespace UnitTestProject1
                     "|DataDirectory|\\..\\..\\..\\XMLFile2.xml",
                     "TestLeapYear",DataAccessMethod.Sequential)]*/
         [TestMethod]
-        [DeploymentItem("XMLFile2.xml")]
+        
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.XML",
 "|DataDirectory|\\..\\..\\..\\XMLFile2.xml", "TestLeapYear",
 DataAccessMethod.Sequential)]
