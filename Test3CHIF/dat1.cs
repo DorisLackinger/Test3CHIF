@@ -82,6 +82,10 @@ namespace TestUeben
 				return day;
 			}
 		}
+        public int dummy()
+        {
+            return 5;
+        }
 		public int DayOfYear
 		{
 			get
