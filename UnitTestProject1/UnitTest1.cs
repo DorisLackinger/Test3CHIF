@@ -26,6 +26,16 @@ namespace UnitTestProject1
             Date d = new Date(2015, 2, 29);
         }
 
+        [TestMethod]
+        public void TestKonstruktorOk()
+        {
+            Date d = new Date(2016, 2, 29);
+            Assert.AreEqual(d.Year, 2016);
+            Assert.AreEqual(d.Month, 2);
+            Assert.AreEqual(d.Day, 29);
+
+        }
+
         public void TestMethod2()
         {
             Date d = new Date();
