@@ -7,8 +7,7 @@ namespace TestUeben
 {
 			
 
-	public class Date
-	{
+	public class Date : IDate {
 		// Fields
 		int year;
 		int month;
@@ -94,6 +93,7 @@ namespace TestUeben
 					(month > 2 && IsLeapYear(year) ? 1 : 0);
 			}
 		}
+
 		// Method
 		public static bool IsLeapYear(int year)
 		{
